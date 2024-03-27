@@ -78,7 +78,7 @@ cursor.execute("DELETE FROM Songs")
 cursor.execute("DELETE FROM sqlite_sequence WHERE name='Songs'")
 
 
-result = search_for_artist(token, "ACDC")
+result = search_for_artist(token, "Mardigal")
 if result:
 
     artist_id = result["id"]
